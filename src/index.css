@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.backdrop-blur-lg{
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+.input-text-color{
+  color: #42005d;
+  border: 1px solid #de97fb;
+}
+
+.page-login .logo-login{
+  width: 120px;
+}
+
+.page-login input::placeholder{
+  color: #42005d;
+  opacity: 0.5;
+}
+
+.page-login button{
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 36px !important;
+}
+ 
+.text-red-200 { 
+  color: #c60000;
+}
+
+.timeResult{
+  font-weight: bold;
+  font-size: 16px;
+  text-align: center;
+}
+
+.imgResult{
+  width: 36px;
+}
+
+.textMultiplier{
+  font-weight: bold;
+  font-size: 18px; 
+}
+
+.betStatusText{
+  height: 63px;
+  margin-top: -4px;
+}
+
+.sm-font{
+  font-size: 9px;
+  margin-bottom: 3px;
+}
+
+.w90{
+  width: 90px;
+}
+
+.min-h-screen90 {
+    min-height: 90vh;
+}
+
+.h-504{
+    height: 504px;
+    overflow: auto;
+}
+
